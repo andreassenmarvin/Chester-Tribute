@@ -69,3 +69,51 @@ body {
     padding:22px;
     font-size:1.25vw;
   }
+
+  /* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .header{
+height:30vh;
+}
+  #image{
+width:25vw;
+height:40vh;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header{
+height:50vh;
+}
+  #image{
+width:35vw;
+height:60vh;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ .header{
+height:70vh;
+}
+  #image{
+width:45vw;
+height:100vh;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.header{
+height:90vh;
+}
+  #image{
+width:55vw;
+height:170vh;
+}
+}
