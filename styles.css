@@ -57,3 +57,15 @@ body {
     padding:10px;
     font-size:1.3vw
   }
+
+  #footer{
+    position:relative;
+    top:100px;
+    left:-7px;
+    margin-right:-15px;
+    background-color:lightgray;
+    height:5vh;
+    text-align:center;
+    padding:22px;
+    font-size:1.25vw;
+  }
