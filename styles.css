@@ -1,3 +1,27 @@
 body {
     font-family: 'Bona Nova', serif;
 }
+
+.header{
+    position:relative;
+    top:-20px;
+    left:-8px;
+    margin-right:-16px;
+    background-image:url("https://static.billboard.com/files/media/02-chester-bennington-bw-portrait-2009-a-billboard-1548-compressed.jpg");
+    background-size:cover;
+    background-position:center;
+    height:70vh;
+  }
+  
+  #lp-logo{
+    width:4vw;
+    padding:17px;
+  }
+  
+  #title{
+    position:absolute;
+    font-size:2vw;
+    color:white;
+    top:2vh;
+    left:8vw;
+  }
