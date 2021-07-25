@@ -20,7 +20,7 @@ body {
   
   #title{
     position:absolute;
-    font-size:2.5vw;
+    font-size:2vw;
     color:white;
     top:2vh;
     left:8vw;
@@ -38,4 +38,22 @@ body {
   
   #tribute-link:hover{
     text-decoration:underline;
+  }
+
+  #img-div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:lightgray;
+  }
+  
+  #image{
+    width:50vw;
+    height:80vh;
+  }
+  
+  #img-caption{
+    padding:10px;
+    font-size:1.3vw
   }
